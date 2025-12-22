@@ -17,3 +17,9 @@ Data paths should be as follows:
 .{YOUR_COCO_PATH}
 └── train2014
 ```
+
+# Pretrained Models
+
+Download pretrained [Swin-B](https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_base_patch4_window7_224_22k.pth) and [BERT-B](https://huggingface.co/bert-base-uncased/tree/main). 
+
+# Code
