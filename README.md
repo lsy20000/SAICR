@@ -1,7 +1,7 @@
 # SAICR
 The code of Symmetric Alignment and Intra-class Contrastive Refinement for Referring Image Segmentation
 
-<img src="network.png" alt="the architecture of SAICR" width="70%">
+<img src="network.png" alt="the architecture of SAICR" width="100%">
 
 Referring Image Segmentation aims to precisely segment a specific object within an image based on a natural language description. However, existing methods often suffer from imprecise visual-language alignment due to suboptimal cross-modal interactions and struggle to distinguish similar distractors because of insufficient feature discriminability. To address these challenges, we propose the Symmetric Alignment and Intra-class Contrastive Refinement (SAICR) framework. For more precise alignment, we achieve multi-level feature fusion in the encoder stage through a bidirectional interaction module, composed of a Symmetric Cross-Attention Fusion (SCAF) module and a Spatial-Channel Gating (SCG) module. For discriminating intra-class objects, we introduce a Dual Contrastive Feature Refinement (DCFR) module, which is the first to apply the idea of Contrastive Clustering to this task, enhancing the model’s discriminative power by combining instance-level and cluster-level learning. Extensive experiments demonstrate that SAICR outperforms existing SOTA methods on three public benchmarks.
 
@@ -66,3 +66,4 @@ The evaluation results (those reported in the paper) of SAICR trained with a cro
 
 # References
 This repo is mainly built based on [LAVT](https://github.com/yz93/LAVT-RIS) and [CARIS](https://github.com/lsa1997/CARIS) and [CC](https://github.com/Yunfan-Li/Contrastive-Clustering). Thanks for their great work!
+
