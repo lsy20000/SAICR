@@ -1,4 +1,5 @@
-# SAICR: Symmetric Alignment and Intra-class Contrastive Refinement for Referring Image Segmentation
+# SAICR
+Symmetric Alignment and Intra-class Contrastive Refinement for Referring Image Segmentation
 This repository contains the PyTorch implementation of our ICASSP 2026 paper
 
 <img src="network.png" alt="the architecture of SAICR" width="100%">
@@ -66,5 +67,6 @@ The evaluation results (those reported in the paper) of SAICR trained with a cro
 
 # References
 This repo is mainly built based on [LAVT](https://github.com/yz93/LAVT-RIS) and [CARIS](https://github.com/lsa1997/CARIS) and [CC](https://github.com/Yunfan-Li/Contrastive-Clustering). Thanks for their great work!
+
 
 
