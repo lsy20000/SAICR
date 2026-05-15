@@ -4,11 +4,10 @@ uname -a
 #env
 date
 # pkill -4 python
-# --resume ./output/mychange/refcocog/2_model_best_refcocog_40.pth
-# --resume ./output/mychange/refcoco+/24_4_model_best_refcoco+.pth
+
 DATASET=refcoco+
-DATA_PATH=/opt/data/share/lsy/zone1/p1/CARIS-main/data
-REFER_PATH=/opt/data/share/lsy/zone1/p1/CARIS-main/data
+DATA_PATH=YOUR_DATA_PATH
+REFER_PATH=YOUR_REFER_PATH
 MODEL=saicr
 SWIN_PATH=./pretrained_weights/swin_base_patch4_window7_224_22k.pth
 BERT_PATH=./pretrained_weights/bert-base-uncased/
