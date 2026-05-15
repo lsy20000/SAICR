@@ -4,14 +4,11 @@ uname -a
 #env
 date
 #
-#85_model_best_refcoco.pth -- testA
-#31_model_best_refcoco+.pth -- val
-#13_model_best_refcocog_48.pth -- test
 
 # DATA_PATH=./data
 DATASET=refcocog
-DATA_PATH=/opt/data/share/lsy/zone1/p1/CARIS-main/data
-REFER_PATH=/opt/data/share/lsy/zone1/p1/CARIS-main/data
+DATA_PATH=YOUR_DATA_PATH
+REFER_PATH=YOUR_REFER_PATH
 BERT_PATH=pretrained_weights/bert-base-uncased/
 MODEL=saicr
 SWIN_TYPE=base
