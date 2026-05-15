@@ -49,6 +49,7 @@ Single-GPU evaluation is supported. To evaluate a model on refcoco, modify the s
 sh scripts/test_refcoco.sh
 ```
 You can change `DATASET` and `SPLIT` to evaludate on different splits of each dataset. 
+Note that for RefCOCO / RefCOCO+,  `--splitBy unc` 
 Note that for RefCOCOg, there are two splits (umd and google). You should add `--splitBy umd` or `--splitBy google` to specify the split. 
 
 # Results
