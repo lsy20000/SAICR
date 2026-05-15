@@ -33,12 +33,6 @@ def _segm_saicr(pretrained, args, criterion):
 
     out_indices = (0, 1, 2, 3) #It indicates from which stages of the SwinTransformer backbone the feature maps are output.
     channels = [embed_dim, embed_dim*2, embed_dim*4, embed_dim*8]# 128  256  512  1024 
-    # prompt_levels = [1, 2]
-    # backbone = PromptEncoder(args, channels, prompt_levels=prompt_levels, embed_dim=embed_dim, depths=depths, num_heads=num_heads,
-    #                                         window_size=window_size,
-    #                                         ape=False, drop_path_rate=0.3, patch_norm=True,
-    #                                         out_indices=out_indices, use_checkpoint=False
-    #                                         )
     backbone = PromptEncoder(args, channels, embed_dim=embed_dim, depths=depths, num_heads=num_heads,
                                             window_size=window_size,
                                             ape=False, drop_path_rate=0.3, patch_norm=True,
